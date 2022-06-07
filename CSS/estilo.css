@@ -13,6 +13,7 @@ header {
 	flex-direction: row;
 	align-items: center;
 	justify-content: space-between;
+	
 }
 	.hdL {
 		font: bold 28px Ubuntu, sans-serif;
@@ -25,6 +26,9 @@ header {
 		transition: 0.2s; 
 		opacity: 0.6; /* color: #B0B0B0; */
 		cursor: pointer;
+		display: flex;
+		align-items: center;
+		gap: 3px;
 	}
 		.hdE:hover {
 			transition: 0.1s;
@@ -36,3 +40,25 @@ header {
 			transition: 0.1s;
 			opacity: 0.5;
 		}
+.crd1 {
+	background-color: #101010;
+	padding: 100px 100px;
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+	gap: 10px;
+}
+.h2 {
+	font: bold 38px Ubuntu, sans-serif;
+}
+.cen {
+	float: right;
+}
+.crd2 {
+	background-color: #303030;
+	padding: 100px 100px;
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+	gap: 10px;
+}
