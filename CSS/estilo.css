@@ -2,7 +2,7 @@
 body {
 	font: 20px "Atkinson Hyperlegible", sans-serif;
 	color: white;
-	background-color: #252525;
+	background-color: #232323;
 	margin: 0px;
 }
 header {
@@ -41,12 +41,12 @@ header {
 			opacity: 0.5;
 		}
 .crd1 {
-	background-color: #101010;
-	padding: 100px 100px;
+	background-color: #151515;
+	padding: 13vh 9vw;
 	align-items: center;
 	display: flex;
 	justify-content: space-between;
-	gap: 10px;
+	gap: 20px;
 }
 .h2 {
 	font: bold 38px Ubuntu, sans-serif;
@@ -54,11 +54,50 @@ header {
 .cen {
 	float: right;
 }
+
+.imgG {
+	border: solid 1px #505050;
+	min-height: 120px;
+	max-height: 40vh;
+	height: auto;
+}
+.rz {
+	width: auto;
+	height: auto;
+}
 .crd2 {
-	background-color: #303030;
-	padding: 100px 100px;
+	background-color: none;
+	padding: 70px 100px;
+	flex-direction: column;
 	align-items: center;
 	display: flex;
 	justify-content: space-between;
+	gap: 40px;
+}
+.ruleta {
+	flex-flow: row wrap;
+	display: flex;
+	gap: 3vh 3vw;
+	justify-content: center;
+}
+.ficha {
+	font: 18px "Atkinson Hyperlegible", serif;
+	display: flex;
+	flex-flow: column wrap;
+	align-items: center;
+	/* justify-content: space-between; /* < Hace que el texto se fije abajo. */
 	gap: 10px;
+	padding: 20px;
+	min-width: 100px;
+	max-width: 12vw;
+}
+.imgf {
+	min-width: 100px; max-width: 12vw;
+	width: auto;
+	border: solid 1px #505050;
+	border-radius: 4px;
+	background-color: #303030;
+}
+.h3 {
+	font: bold 32px "Roboto", sans-serif;
 }
