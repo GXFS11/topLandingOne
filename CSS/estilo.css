@@ -49,7 +49,7 @@ header {
 		}
 .crd1 {
 	background-color: #151515;
-	padding: 13vh 9vw;
+	padding: 14vh 9vw;
 	align-items: center;
 	display: flex;
 	justify-content: space-between;
@@ -74,7 +74,7 @@ header {
 }
 .crd2 {
 	background-color: none;
-	padding: 70px 100px;
+	padding: 110px 100px;
 	flex-direction: column;
 	align-items: center;
 	display: flex;
@@ -132,4 +132,17 @@ blockquote {
 	font-weight: bold;
 	font-style: italic;
 	text-align: right;
+}
+footer {
+	color: #909090;
+	background-color: black;
+	padding: 50px 23px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+hr {
+	border: solid 1px #505050;
+	width: 80%;
 }
