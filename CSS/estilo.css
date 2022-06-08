@@ -17,6 +17,12 @@ header {
 }
 	.hdL {
 		font: bold 28px Ubuntu, sans-serif;
+		align-items: center;
+		display: flex;
+	}
+	.hdLOG {
+		height: auto;
+		max-height: 28px;
 	}
 	.hdC {
 		display: flex;
