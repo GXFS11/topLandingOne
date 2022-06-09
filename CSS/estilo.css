@@ -8,50 +8,59 @@ body {
 header {
 	font: bold 14px Ubuntu, sans-serif;
 	background-color: black;
-	padding: 17px 30px;
+	padding: 20px 3vw;
 	display: flex;
 	flex-direction: row;
 	align-items: center;
 	justify-content: space-between;
 	gap: 3vw;
+	
 }
 	.hdL {
-		font: bold 28px Ubuntu, sans-serif;
+		font: bold 24px Ubuntu, sans-serif;
 		align-items: center;
 		display: flex;
 		transition: 0.2s;
+		cursor: pointer;
 	}
+		.hdL:hover {
+			transition: 0.1s;
+			filter: drop-shadow(0 0 8px #B0B0B0);
+		}
+		.hdL:active {
+			transition: 0.1s;
+			filter: drop-shadow(0 0 12px white);
+		}
 	.hdLOG {
 		height: auto;
 		max-height: 28px;
 	}
-		.hdL:hover {
-			transition: 0.1s;
-			filter: drop-shadow(0 0 6px white);
-		}
 	.hdC {
 		display: flex;
 		gap: 2vw;
 	}
 	.hdE {
 		transition: 0.2s; 
-		opacity: 0.6; /* color: #B0B0B0; */
+		filter: brightness(0.6);/* opacity: 0.6; /* color: #B0B0B0; */
 		cursor: pointer;
 		display: flex;
+		padding: 4px 0px;
+		margin: 0px;
 		align-items: center;
-		gap: 3px;
+		gap: 4px;
 	}
 		.hdE:hover {
 			transition: 0.1s;
-			opacity: 1;/* color: white; */
+			filter: brightness(1); /* opacity: 1;/* color: white; */
 			text-decoration: underline #B0B0B0;
 			text-shadow: 0px 0px 36px white;
-			margin-top: 4px;
+			
+			padding-top: 6px; padding-bottom: 2px;
 		}
 		.hdE:active {
 			transition: 0.1s;
-			opacity: 0.5;
-			margin-top: 8px;
+			filter: brightness(0.5); /* opacity: 0.5; */
+			padding-top: 8px;  padding-bottom: 0px;
 		}
 .crd1 {
 	background-color: #151515;
@@ -60,27 +69,19 @@ header {
 	display: flex;
 	justify-content: space-between;
 	gap: 20px;
+	clear: both;
 }
 .h2 {
-	font: 38px Ubuntu, sans-serif;
+	font: 6vh Ubuntu, sans-serif;
 }
-.cen {
-	float: right;
-}
-
 .imgG {
 	border: solid 1px #505050;
-	min-height: 120px;
-	max-height: 40vh;
-	height: auto;
-}
-.rz {
-	width: auto;
-	height: auto;
+	min-width: 200px;
+	width: 70vw;
 }
 .crd2 {
 	background-color: none;
-	padding: 110px 100px;
+	padding: 110px 10vw;
 	flex-direction: column;
 	align-items: center;
 	display: flex;
@@ -105,8 +106,7 @@ header {
 	max-width: 12vw;
 }
 .imgf {
-	min-width: 100px; max-width: 12vw;
-	width: auto;
+	min-width: 100px; width: 12vw;
 	border: solid 1px #505050;
 	border-radius: 4px;
 	background-color: #303030;
@@ -119,7 +119,7 @@ header {
 	background-color: #1C1C1C;
 	display: flex;
 	flex-direction: column;
-	padding: 100px;
+	padding: 100px 12vw;
 	justify-content: center;
 }
 blockquote {
@@ -140,20 +140,26 @@ blockquote {
 	text-align: right;
 }
 footer {
-	font-size: medium;
-	color: #707070;
-	background-color: #101010;
+	font-size: 16px;
+	color: #606060;
+	background-color: #131313;
 	border: solid 1px black;
-	padding: 30px 23px;
+	padding: 20px 23px;
 	text-align: center;
 	display: flex;
 	flex-direction: column;
-	gap: 20px;
-	
+	gap: 15px;
 }
 hr {
 	border: solid 1px #505050;
 	width: 80%;
+}
+.crd4 {
+	background-color: none;
+	padding: 100px 10vw;
+	align-items: center;
+	display: flex;
+	justify-content: center;
 }
 .globo {
 	background-color: #403070;
