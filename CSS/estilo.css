@@ -112,7 +112,7 @@ header {
 	background-color: #303030;
 }
 .h3 {
-	font: bold 32px "Roboto", sans-serif;
+	font: bold 30px Ubuntu, sans-serif;
 }
 /* SECCION 3 : DICHO */
 .crd3 {
@@ -171,7 +171,7 @@ hr {
 	box-shadow: 0px 2px 6px 0px #101010;
 }
 .h4 {
-	font: bold 26px "Roboto", sans-serif;
+	font: bold 26px Ubuntu, sans-serif;
 }
 .gtxt {
 	font: 20px "Atkinson Hyperlegible", sans-serif;
