@@ -13,7 +13,7 @@ header {
 	flex-direction: row;
 	align-items: center;
 	justify-content: space-between;
-	
+	gap: 3vw;
 }
 	.hdL {
 		font: bold 28px Ubuntu, sans-serif;
@@ -26,7 +26,7 @@ header {
 	}
 	.hdC {
 		display: flex;
-		gap: 25px;
+		gap: 2vw;
 	}
 	.hdE {
 		transition: 0.2s; 
@@ -41,11 +41,12 @@ header {
 			opacity: 1;/* color: white; */
 			text-decoration: underline #B0B0B0;
 			text-shadow: 0px 0px 36px white;
-			margin-top: 4px;
+			margin-top: -4px;
 		}
 		.hdE:active {
 			transition: 0.1s;
 			opacity: 0.5;
+			margin-top: 2px;
 		}
 .crd1 {
 	background-color: #151515;
