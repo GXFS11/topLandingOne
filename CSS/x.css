@@ -1,0 +1,35 @@
+@import "estilo.css";
+.btnG {
+	color: white;
+	background-color: #3A3A3A;
+	border: solid 3px #808080;
+	border-radius: 6px;
+	font: 16px Ubuntu, sans-serif;
+	cursor: pointer;
+	padding: 10px 20px;
+	transition: 0.2s;
+	box-shadow: 0px 4px 4px 1px black;
+	display: flex;
+	align-items: center;
+	gap: 3px;
+}
+	.btnG:hover {
+		transition: 0.1s;
+		color: black;
+		background-color: #C0C0C0;
+		border-color: #C0C0C0;
+		box-shadow: 0px 2px 8px 3px #706070;
+	}
+	.btnG:active {
+		transition: 0.1s;
+		color: white;
+		background-color: #202020;
+		border-color: white;
+	}
+.ico {
+	height: 18px; width: 18px;
+	float: left;
+}
+.tst {
+	border: dashed 1px royalblue;
+}

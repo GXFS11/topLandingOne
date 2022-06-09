@@ -56,7 +56,7 @@ header {
 	gap: 20px;
 }
 .h2 {
-	font: bold 38px Ubuntu, sans-serif;
+	font: 38px Ubuntu, sans-serif;
 }
 .cen {
 	float: right;
@@ -134,9 +134,11 @@ blockquote {
 	text-align: right;
 }
 footer {
-	color: #909090;
-	background-color: black;
-	padding: 50px 23px;
+	font-size: medium;
+	color: #808080;
+	background-color: #101010;
+	border: solid 1px black;
+	padding: 40px 23px;
 	text-align: center;
 	display: flex;
 	flex-direction: column;
