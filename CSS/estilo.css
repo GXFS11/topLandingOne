@@ -2,7 +2,8 @@
 body {
 	font: 20px "Atkinson Hyperlegible", sans-serif;
 	color: white;
-	background-color: #232323;
+	background-image: url("../imgs/patronC.svg"); 
+		background-repeat: repeat; background-position: center; background-size: cover;
 	margin: 0px;
 }
 header {
