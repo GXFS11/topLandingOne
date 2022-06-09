@@ -19,11 +19,16 @@ header {
 		font: bold 28px Ubuntu, sans-serif;
 		align-items: center;
 		display: flex;
+		transition: 0.2s;
 	}
 	.hdLOG {
 		height: auto;
 		max-height: 28px;
 	}
+		.hdL:hover {
+			transition: 0.1s;
+			filter: drop-shadow(0 0 6px white);
+		}
 	.hdC {
 		display: flex;
 		gap: 2vw;
@@ -41,12 +46,12 @@ header {
 			opacity: 1;/* color: white; */
 			text-decoration: underline #B0B0B0;
 			text-shadow: 0px 0px 36px white;
-			margin-top: -4px;
+			margin-top: 4px;
 		}
 		.hdE:active {
 			transition: 0.1s;
 			opacity: 0.5;
-			margin-top: 2px;
+			margin-top: 8px;
 		}
 .crd1 {
 	background-color: #151515;
@@ -136,16 +141,38 @@ blockquote {
 }
 footer {
 	font-size: medium;
-	color: #808080;
+	color: #707070;
 	background-color: #101010;
 	border: solid 1px black;
-	padding: 40px 23px;
+	padding: 30px 23px;
 	text-align: center;
 	display: flex;
 	flex-direction: column;
 	gap: 20px;
+	
 }
 hr {
 	border: solid 1px #505050;
 	width: 80%;
+}
+.globo {
+	background-color: #403070;
+	border-radius: 18px;
+	padding: 6vh 5vw;
+	display: flex;
+	gap: 4vw;
+	align-items: center;
+	box-shadow: 0px 2px 6px 0px #101010;
+}
+.h4 {
+	font: bold 26px "Roboto", sans-serif;
+}
+.gtxt {
+	font: 20px "Atkinson Hyperlegible", sans-serif;
+	flex-direction: column;
+	display: flex;
+	gap: 10px;
+}
+.dark {
+	filter: brightness(0);
 }

@@ -1,35 +1,75 @@
 @import "estilo.css";
+button {
+	font: 16px Ubuntu, sans-serif;
+	transition: 0.2s;
+	box-shadow: 0px 4px 4px 1px black;
+	padding: 10px 20px;
+	display: flex;
+	cursor: pointer;
+	gap: 5px;
+	align-items: center;
+	display: flex;
+}
+	button:hover {
+		transition: 0.1s;
+	}
+	button:active {
+		transition: 0.1s;
+	}
 .btnG {
 	color: white;
 	background-color: #3A3A3A;
 	border: solid 3px #808080;
 	border-radius: 6px;
-	font: 16px Ubuntu, sans-serif;
-	cursor: pointer;
-	padding: 10px 20px;
-	transition: 0.2s;
-	box-shadow: 0px 4px 4px 1px black;
-	display: flex;
-	align-items: center;
-	gap: 3px;
 }
 	.btnG:hover {
-		transition: 0.1s;
 		color: black;
 		background-color: #C0C0C0;
 		border-color: #C0C0C0;
 		box-shadow: 0px 2px 8px 3px #706070;
 	}
 	.btnG:active {
-		transition: 0.1s;
 		color: white;
 		background-color: #202020;
 		border-color: white;
 	}
+	.btnG:hover img {
+		transition: 0.1s;
+		filter: brightness(0);
+	}
+	.btnG:active img {
+		transition: 0.1s;
+		filter: none;
+	}
 .ico {
 	height: 18px; width: 18px;
-	float: left;
 }
+	.i {
+		float: left;
+	}
+	.d {
+		float: right;
+	}
 .tst {
 	border: dashed 1px royalblue;
 }
+.btnA {
+	font-weight: 500;
+	color: black;
+	background-color: #B0B0B0;
+	border: none;
+	border-radius: 6px;
+	box-shadow: 0px 2px 4px 0px #202020;
+	padding: 14px 27px;
+}
+	.btnA:hover {
+		background-color: #D0D0D0;
+		box-shadow: 0px 2px 6px 3px #706070;
+	}
+	.btnA:active {
+		color: black;
+		background-color: white;
+		box-shadow: 0px 2px 8px 4px #A090A0;
+		padding: 13px 27px;
+		margin-top: 6px;
+	}
