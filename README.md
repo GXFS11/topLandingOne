@@ -5,4 +5,4 @@
  - - cdn.statically.io/gh/TheOdinProject/curriculum/main/foundations/html_css/project/odin-project.png
 
 
- Para verla dirígase a gxfs11.github.io/topLandingOne/
+ Para verla dirígase a https://gxfs11.github.io/topLandingOne/
