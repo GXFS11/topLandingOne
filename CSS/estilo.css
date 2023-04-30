@@ -15,7 +15,9 @@ header {
 	align-items: center;
 	justify-content: space-between;
 	gap: 3vw;
-	
+	position: sticky;
+	top: 0px;
+	box-shadow: 0 0 28px 1px #000B;
 }
 	.hdL {
 		font: bold 24px Ubuntu, sans-serif;
